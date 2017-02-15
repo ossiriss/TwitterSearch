@@ -1,0 +1,16 @@
+PODS:
+  - TwitterSearch (0.1.0)
+
+DEPENDENCIES:
+  - TwitterSearch (from `../`)
+
+EXTERNAL SOURCES:
+  TwitterSearch:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TwitterSearch: bd700975dc49730e812e2b523b0d2071ab909207
+
+PODFILE CHECKSUM: 5f1942eb113739bcad14217f4df3d95e0066becf
+
+COCOAPODS: 1.2.0

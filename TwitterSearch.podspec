@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'TwitterSearch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of TwitterSearch.'
+  s.summary          = 'this CocoaPod allows to search Tweets in Twitter'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,17 +18,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+    Using this pod you can serch for Tweets in Twitter and save them to an array
                        DESC
 
   s.homepage         = 'https://github.com/Boris Estrin/TwitterSearch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Boris Estrin' => 'borisestrin@gmail.com' }
-  s.source           = { :git => 'https://github.com/Boris Estrin/TwitterSearch.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ossiriss/TwitterSearch.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'TwitterSearch/Classes/**/*'
   
@@ -38,5 +38,6 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.dependency 'Alamofire', '~> 4.0'
+    s.dependency 'SwiftyJSON'
 end
