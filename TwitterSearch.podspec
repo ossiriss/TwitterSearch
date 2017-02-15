@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
     Using this pod you can serch for Tweets in Twitter and save them to an array
                        DESC
 
-  s.homepage         = 'https://github.com/Boris Estrin/TwitterSearch'
+  s.homepage         = 'https://github.com/ossiriss/TwitterSearch'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Boris Estrin' => 'borisestrin@gmail.com' }
