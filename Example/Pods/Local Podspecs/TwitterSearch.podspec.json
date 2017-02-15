@@ -1,9 +1,9 @@
 {
   "name": "TwitterSearch",
   "version": "0.1.0",
-  "summary": "A short description of TwitterSearch.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Boris Estrin/TwitterSearch",
+  "summary": "this CocoaPod allows to search Tweets in Twitter",
+  "description": "Using this pod you can serch for Tweets in Twitter and save them to an array",
+  "homepage": "https://github.com/ossiriss/TwitterSearch",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,11 @@
     "Boris Estrin": "borisestrin@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Boris Estrin/TwitterSearch.git",
+    "git": "https://github.com/ossiriss/TwitterSearch.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "9.0"
+    "ios": "8.0"
   },
   "source_files": "TwitterSearch/Classes/**/*",
   "dependencies": {

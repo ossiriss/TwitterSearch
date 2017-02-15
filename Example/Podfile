@@ -2,6 +2,8 @@ use_frameworks!
 
 target 'TwitterSearch_Example' do
   pod 'TwitterSearch', :path => '../'
+  pod 'Alamofire', '~> 4.0'
+  pod 'SwiftyJSON'
 
   target 'TwitterSearch_Tests' do
     inherit! :search_paths
