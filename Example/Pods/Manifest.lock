@@ -1,7 +1,13 @@
 PODS:
-  - TwitterSearch (0.1.0)
+  - Alamofire (4.3.0)
+  - SwiftyJSON (3.1.4)
+  - TwitterSearch (0.1.0):
+    - Alamofire (~> 4.0)
+    - SwiftyJSON
 
 DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - SwiftyJSON
   - TwitterSearch (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,8 +15,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TwitterSearch: bd700975dc49730e812e2b523b0d2071ab909207
+  Alamofire: 856a113053a7bc9cbe5d6367a555d773fc5cfef7
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TwitterSearch: b001fe71409240984bfd4d59edf2d03077df68c3
 
-PODFILE CHECKSUM: 5f1942eb113739bcad14217f4df3d95e0066becf
+PODFILE CHECKSUM: e899ae047a521c62fa66fcccdc2b542a8c41276b
 
 COCOAPODS: 1.2.0
